@@ -47,7 +47,7 @@ int main(void) {
 	string	filename;	// Image name
 	int		h, w, height, width;
 
-	filename = "C:/Users/bielb/Desktop/4.png";
+	filename = ".../Desktop/4.png";
 
 	// Read image from disk
 	image = imread(filename);
@@ -61,6 +61,9 @@ int main(void) {
 	// Note: this space are space char not tab
 	cout << "Image info:" << endl;
 	cout << ">>> Name: ..... " << filename << endl;
+	/*
+	type2Str(image) estava dando erro etnão substitui por image.type()
+	*/
 	cout << ">>> Type: ..... " << image.type() << endl;
 	//https://gist.github.com/yangcha/38f2fa630e223a8546f9b48ebbb3e61a
 
