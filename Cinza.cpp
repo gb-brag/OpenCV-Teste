@@ -54,7 +54,7 @@ int main(void) {
 	Mat		gray;			// Destination image in GRAY color space
 	string	filename;	// Image file name
 
-	filename = "C:/Users/bielb/Pictures/riven_spirit_2_pc_by_snowy2b_de53xxf-pre.jpg";
+	filename = ".../Pictures/riven_spirit_2_pc_by_snowy2b_de53xxf-pre.jpg";
 
 	// Read image from disk
 	image = imread(filename);
