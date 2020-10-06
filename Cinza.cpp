@@ -72,8 +72,9 @@ int main(void) {
 	// Show our image ins , image );                
 	imshow("Original Image", image);
 
-	cvtColor(image, gray, 11);
+	cvtColor(image, gray, 7);
 	/**
+	* cvtColor seguiu esse padrão de código para realizar COLOR_RGB2GRAY
 	*   cv::COLOR_BGR2BGRA = 0,
 	*	cv::COLOR_BGRA2BGR = 1
 	*	cv::COLOR_BGR2RGBA = 2,
