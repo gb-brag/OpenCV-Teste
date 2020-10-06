@@ -119,6 +119,7 @@ void mouseCallBack(int event, int x, int y, int flags, void* userdata) {
 		setw(3) << hex << event << "][" <<
 		setw(3) << hex << flags << "]" <<
 		//setw(3) << dec << delta <<
+		//Delta foi delcarada mas não foi usada
 		setw(2) << "(" << setw(4) << x << "," << setw(4) << y << ")" <<
 		" RGB("
 		<< setw(3) << (int)(v[2]) << ", "
@@ -137,7 +138,7 @@ int main(void) {
 	char		ch;
 	string	wname;		// Window name
 
-	filename = "C:/Users/bielb/Pictures/riven_spirit_2_pc_by_snowy2b_de53xxf-pre.jpg";
+	filename = ".../Pictures/riven_spirit_2_pc_by_snowy2b_de53xxf-pre.jpg";
 	wname = "Working Window";
 
 	// Read image from disk
