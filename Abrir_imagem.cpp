@@ -49,7 +49,7 @@ int main(void) {
 	string	filename;	// Image name
 	int		h, w, height, width;
 
-	filename = "C:/Users/bielb/Pictures/riven_spirit_2_pc_by_snowy2b_de53xxf-pre.jpg";
+	filename = ".../Pictures/riven_spirit_2_pc_by_snowy2b_de53xxf-pre.jpg";
 
 	// Read image from disk
 	image = imread(filename);
